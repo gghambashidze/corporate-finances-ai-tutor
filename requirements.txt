@@ -1,0 +1,12 @@
+cat << 'EOF' > requirements.txt
+streamlit
+pytesseract
+pillow
+gTTS
+matplotlib
+numpy
+chromadb
+langchain
+langchain-community
+langchain-core
+EOF
