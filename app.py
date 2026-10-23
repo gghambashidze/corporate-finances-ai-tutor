@@ -16,7 +16,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
 # --- CONFIG & PERSISTENCE ---
-st.set_page_config(page_title="Corporate Finances AI Tutor", layout="wide")
+st.set_page_config(page_title="Corporate Finances", layout="wide")
 
 SESSIONS_FILE = "chat_sessions.json"
 PROFILE_FILE = "user_profile.json"
